@@ -27,6 +27,7 @@ const Home = () => {
 
   return (
     <div>
+      <Link to="/create">Crate Post</Link>
       {loading === true ? (
         <h1>Loading......</h1>
       ) : (
